@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="674.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo2.HelloController">
+  <children>
+    <PasswordField fx:id="PasswordBox" layoutX="176.0" layoutY="458.0" prefHeight="26.0" prefWidth="198.0" />
+    <Label fx:id="PasswordText" layoutX="87.0" layoutY="463.0" text="Password">
+      <font>
+        <Font name="Arial" size="15.0" />
+      </font>
+    </Label>
+    <Label fx:id="AgeText" layoutX="129.0" layoutY="195.0" text="Age">
+      <font>
+        <Font name="Arial" size="15.0" />
+      </font>
+    </Label>
+    <PasswordField fx:id="AgeBox" layoutX="176.0" layoutY="191.0" prefHeight="26.0" prefWidth="66.0" />
+    <Label layoutX="70.0" layoutY="14.0" prefHeight="59.0" prefWidth="490.0" text="Welcome, new user" textAlignment="CENTER">
+      <font>
+        <Font name="Arial Black" size="40.0" />
+      </font>
+    </Label>
+    <Button fx:id="Submitto" layoutX="135.0" layoutY="609.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="80.0" text="Submit">
+      <font>
+        <Font name="Arial" size="16.0" />
+      </font>
+    </Button>
+      <Label fx:id="Firstnametext" layoutX="84.0" layoutY="108.0" text="First Name">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="FirstNameBox" layoutX="176.0" layoutY="104.0" prefHeight="26.0" prefWidth="199.0" />
+      <Label fx:id="LastNameText" layoutX="84.0" layoutY="147.0" text="Last Name">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="LastNameBox" layoutX="176.0" layoutY="143.0" prefHeight="26.0" prefWidth="199.0" />
+      <Label fx:id="GenderText" layoutX="308.0" layoutY="177.0" text="Gender">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="MaleToggle" layoutX="271.0" layoutY="195.0" mnemonicParsing="false" text="Male" />
+      <RadioButton fx:id="FemaleToggle" layoutX="342.0" layoutY="195.0" mnemonicParsing="false" text="Female" />
+      <Label fx:id="BirthdayText" layoutX="101.0" layoutY="233.0" text="Birthday">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="BirthdayBox" layoutX="176.0" layoutY="229.0" />
+      <Label fx:id="CivilStatusText" layoutX="82.0" layoutY="272.0" text="Civil Status">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="CivilStatusBox" layoutX="176.0" layoutY="267.0" prefHeight="26.0" prefWidth="198.0" />
+      <Label fx:id="CountryText" layoutX="95.0" layoutY="309.0" prefHeight="18.0" prefWidth="66.0" text="Country">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="CountryBox" layoutX="176.0" layoutY="305.0" prefHeight="26.0" prefWidth="198.0" />
+      <Button fx:id="ClearClear" layoutX="259.0" layoutY="609.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="80.0" text="Clear">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="EmailText" layoutX="96.0" layoutY="349.0" prefHeight="18.0" prefWidth="66.0" text="Email">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="EmailBox" layoutX="176.0" layoutY="345.0" prefHeight="26.0" prefWidth="359.0" />
+      <Label fx:id="MobileText" layoutX="95.0" layoutY="387.0" prefHeight="18.0" prefWidth="66.0" text="Mobile">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="MobileBox" layoutX="176.0" layoutY="383.0" prefHeight="26.0" prefWidth="198.0" />
+      <Label fx:id="UsernameText" layoutX="43.0" layoutY="426.0" prefHeight="18.0" prefWidth="132.0" text="Desired Username">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="UsernameBox" layoutX="176.0" layoutY="422.0" prefHeight="26.0" prefWidth="254.0" />
+      <Label fx:id="PasswordText2" layoutX="35.0" layoutY="504.0" prefHeight="18.0" prefWidth="132.0" text="Confirm Password">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="PasswordBox1" layoutX="176.0" layoutY="500.0" prefHeight="26.0" prefWidth="198.0" />
+  </children>
+</AnchorPane>
